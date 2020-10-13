@@ -33,7 +33,7 @@ let g:which_key_map.g = {
       \ 'v' : [':Gdiffsplit'                 , 'View Diff in split'],
       \ 'b' : [':Git blame'                  , 'View Blame'],
       \ 'l' : [':GV'                         , 'View Git Log'],
-      \ 's' : [':!stree'                     , 'Open Sourcetree'],
+      \ 's' : [':!stree'                     , 'Open in Sourcetree'],
       \ }
 
 let g:which_key_map.s = {
@@ -50,6 +50,10 @@ let g:which_key_map.w = {
       \ 'w': [':Startify'                    , 'Open Startify'],
       \ 's': [':SSave'                       , 'Save Session'],
       \ 'l': [':SLoad'                       , 'Save Session'],
+      \ 'a': [':SLoad jera-auto'             , 'Load jera-auto'],
+      \ 'b': [':SLoad jera-backend'          , 'Load jera-backend'],
+      \ 'f': [':SLoad jera-frontend'         , 'Load jera-frontend'],
+      \ 'n': [':SLoad nvim'                  , 'Load nvim'],
       \ }
 
 " Register which key map
