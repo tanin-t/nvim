@@ -57,6 +57,11 @@ inoremap <expr> <c-j> ("\<C-n>")
 inoremap <expr> <c-k> ("\<C-p>")
 inoremap OO <esc>O
 inoremap AA <esc>A
+" use option+<h,j,k,l> to move cursor in insert mode
+inoremap ˙ <left>
+inoremap ∆ <down>
+inoremap ˚ <up>
+inoremap ¬ <right>
 
 nnoremap <C-p> :Files<CR>
 nnoremap <C-s> :wall<cr>
