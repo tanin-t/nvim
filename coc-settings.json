@@ -10,6 +10,7 @@
     ],
     "v": "open:vsplit"
   },
+  "python.pythonPath": "python",
   "python.linting.pylintArgs": [
     "--load-plugins",
     "pylint_django",
