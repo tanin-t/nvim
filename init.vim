@@ -70,12 +70,20 @@ nnoremap <C-q> :wqall<cr>
 nnoremap <TAB> :bn<CR>
 nnoremap <S-TAB> :bp<CR>
 nnoremap ' :Marks<CR>
+nnoremap ∆ <C-e>
+nnoremap ˚ <C-y>
 
 vnoremap < <gv
 vnoremap > >gv
 vnoremap p pgvy
-vnoremap // :Commentary<cr>
+vnoremap <leader>/ :Commentary<cr>
 
+" Use opt + shift + '-', '=' to decrease/increase size
+nnoremap <silent> — :resize -1<CR>
+nnoremap <silent> ± :resize +1<CR>
+" Use opt + '-', '=' to decrease/increase size
+nnoremap <silent> – :vertical resize -2<CR>
+nnoremap <silent> ≠ :vertical resize +2<CR>
 
 
 " ---------------------------------------- ----------------------------------------
